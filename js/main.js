@@ -11,13 +11,13 @@ html.setAttribute("data-theme", savedTheme);
 // Update icon based on current theme
 function updateThemeIcon() {
     const currentTheme = html.getAttribute("data-theme");
-    const icon =
-        currentTheme === "dark"
-            ? '<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>'
-            : '<path d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/>';
+    const sunIcon = `<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/>`;
+    const moonIcon = `<path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/>`;
     if (themeToggle) {
         const svgEl = themeToggle.querySelector("svg");
-        if (svgEl) svgEl.innerHTML = icon;
+        if (svgEl) {
+            svgEl.innerHTML = currentTheme === "dark" ? moonIcon : sunIcon;
+        }
     }
 }
 

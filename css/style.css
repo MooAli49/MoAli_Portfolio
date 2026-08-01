@@ -200,17 +200,24 @@ body {
     justify-content: center;
     transition: all 0.3s ease;
     margin-left: 1rem;
+    color: var(--text-primary);
 }
 
 .theme-toggle:hover {
     border-color: var(--accent-primary);
-    transform: rotate(180deg);
+    color: var(--accent-primary);
+    transform: scale(1.08);
 }
 
 .theme-toggle svg {
     width: 20px;
     height: 20px;
-    fill: var(--text-primary);
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transition: transform 0.3s ease;
 }
 
 /* ==========================================

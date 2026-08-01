@@ -49,9 +49,12 @@
                 <li><a href="#contact" class="nav__link">Contact</a></li>
             </ul>
             <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="4"></circle>
                     <path
-                        d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                        d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41">
+                    </path>
                 </svg>
             </button>
             <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation menu">
@@ -141,15 +144,6 @@
                     management, RESTful APIs, and Clean Architecture, with a track
                     record of refactoring production code and resolving stability
                     issues.
-                </p>
-                <p>
-                    My graduation project
-                    <span class="about__highlight">Monqez (منقذ)</span>
-                    — a full-featured blood donation platform — showcases my ability to
-                    architect scalable solutions using 14+ feature modules, Google Maps
-                    integration, real-time appointment booking, gamification, and AI
-                    chatbot features. I thrive in agile teams and take ownership from
-                    design through deployment.
                 </p>
                 <p>
                     Holds a
@@ -332,7 +326,46 @@
                     </div>
                 </article>
 
-                <!-- Project 3: Bolt Supply Chain -->
+                <!-- Project 3: e-Care Mobile Platform -->
+                <article class="project-card">
+                    <div class="project-card__image">
+                        <img src="images/ecare.png" alt="e-Care Medical App"
+                            onerror="this.parentElement.style.display = 'none'" />
+                    </div>
+                    <div class="project-card__content">
+                        <h3 class="project-card__title">🏥 e-Care Mobile Platform</h3>
+                        <p class="project-card__description">
+                            A modern Flutter healthcare &amp; patient management application
+                            designed for seamless appointment scheduling, insurance
+                            tracking, and patient onboarding.
+                        </p>
+                        <ul class="project-card__list">
+                            <li>Multi-step authentication &amp; OTP verification</li>
+                            <li>Patient profile &amp; insurance policy management</li>
+                            <li>
+                                Interactive home dashboard &amp; quick action navigation
+                            </li>
+                            <li>Clean Architecture with BLoC/Cubit &amp; Retrofit</li>
+                        </ul>
+                        <div class="project-card__tech">
+                            <span class="tech-badge">Flutter</span>
+                            <span class="tech-badge">Dart</span>
+                            <span class="tech-badge">BLoC / Cubit</span>
+                            <span class="tech-badge">Clean Architecture</span>
+                            <span class="tech-badge">Retrofit / Dio</span>
+                        </div>
+                        <a href="https://github.com/mumenabdelkader/e-care" target="_blank" rel="noopener noreferrer"
+                            class="project-card__link">
+                            View on GitHub
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path
+                                    d="M14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3m-2 16H5V5h7V3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7h-2v7z" />
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Project 4: Bolt Supply Chain -->
                 <article class="project-card">
                     <div class="project-card__image">
                         <img src="images/bolt.png" alt="Bolt Supply Chain App"
@@ -359,42 +392,6 @@
                         </div>
                         <a href="https://github.com/KareemEzzat91/supply_chain_bolt" target="_blank"
                             rel="noopener noreferrer" class="project-card__link">
-                            View on GitHub
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                <path
-                                    d="M14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3m-2 16H5V5h7V3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7h-2v7z" />
-                            </svg>
-                        </a>
-                    </div>
-                </article>
-
-                <!-- Project 4: DocDoc App -->
-                <article class="project-card">
-                    <div class="project-card__image">
-                        <img src="images/docdoc.png" alt="DocDoc Medical App"
-                            onerror="this.parentElement.style.display = 'none'" />
-                    </div>
-                    <div class="project-card__content">
-                        <h3 class="project-card__title">🏥 DocDoc App</h3>
-                        <p class="project-card__description">
-                            A Flutter healthcare application that connects patients with
-                            doctors across multiple medical specialties, simplifying
-                            appointment booking and medical consultations.
-                        </p>
-                        <ul class="project-card__list">
-                            <li>Multi-specialty doctor discovery &amp; filtering</li>
-                            <li>Patient-doctor appointment booking</li>
-                            <li>RESTful API integration for live data</li>
-                            <li>Clean and accessible medical UI</li>
-                        </ul>
-                        <div class="project-card__tech">
-                            <span class="tech-badge">Flutter</span>
-                            <span class="tech-badge">Dart</span>
-                            <span class="tech-badge">RESTful APIs</span>
-                            <span class="tech-badge">Clean Architecture</span>
-                        </div>
-                        <a href="https://github.com/MooAli49/docdoc" target="_blank" rel="noopener noreferrer"
-                            class="project-card__link">
                             View on GitHub
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                 <path
@@ -606,8 +603,17 @@
                         <span class="form-error" id="messageError">Please enter your message</span>
                     </div>
 
-                    <div class="form-success" id="formSuccess"
-                        style="display:none; padding: 1rem; margin-bottom: 1.5rem; background-color: #dcfce7; border: 1px solid #22c55e; color: #15803d; border-radius: 8px; font-weight: 600; text-align: center;">
+                    <div class="form-success" id="formSuccess" style="
+                display: none;
+                padding: 1rem;
+                margin-bottom: 1.5rem;
+                background-color: #dcfce7;
+                border: 1px solid #22c55e;
+                color: #15803d;
+                border-radius: 8px;
+                font-weight: 600;
+                text-align: center;
+              ">
                         ✅ Thank you! Your message has been sent directly to Mohamed.
                     </div>
 
