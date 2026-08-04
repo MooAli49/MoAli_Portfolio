@@ -1,0 +1,37 @@
+[
+  {
+    "type": "experience",
+    "date": "October 2025",
+    "title": "Flutter Developer Intern",
+    "subtitle": "JBR Digital",
+    "description": "Contributed to <strong>Heart Emergency</strong>, a Flutter-based cardiac emergency response app. Refactored existing screens for improved readability and clean code practices. Implemented dynamic device-based theming (system light/dark mode) and diagnosed & resolved logic bugs across core app flows using Git-based version control."
+  },
+  {
+    "type": "training",
+    "date": "6 Months",
+    "title": "Flutter Development Trainee",
+    "subtitle": "ITI Summer Training & GDG on Campus Al-Azhar",
+    "description": "Gained proficiency in Firebase integration (Auth, Firestore) and Bloc state management (ITI); learned UI/UX best practices and backend/API integration (GDG on Campus)."
+  },
+  {
+    "type": "education",
+    "date": "2022 – 2026",
+    "title": "BSc in Computer Science & Artificial Intelligence",
+    "subtitle": "Beni-Suef University — GPA: 3.3 / 4.0",
+    "description": "Relevant coursework: Algorithms, Data Structures, Object-Oriented Programming, Artificial Intelligence. Active participant in coding competitions and technical workshops."
+  },
+  {
+    "type": "certificate",
+    "date": null,
+    "title": "Certificates",
+    "subtitle": null,
+    "description": "<strong>Flutter Clean Architecture</strong> — Udemy (Usama Elgendy), 2024<br /><strong>Google Maps Integration in Flutter</strong> — Udemy (Tharwat Samy), 2024"
+  },
+  {
+    "type": "language",
+    "date": null,
+    "title": "Languages",
+    "subtitle": null,
+    "description": "<strong>Arabic:</strong> Native proficiency<br /><strong>English:</strong> Good proficiency"
+  }
+]

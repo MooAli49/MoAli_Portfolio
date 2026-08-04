@@ -1,0 +1,142 @@
+[
+  {
+    "id": "monqez",
+    "emoji": "🩸",
+    "title": "Monqez (منقذ)",
+    "badge": "Graduation Project",
+    "featured": true,
+    "image": "images/monqez.png",
+    "description": "A full-featured Flutter blood-donor platform using Clean Architecture across 14+ feature modules, connecting donors with donation centers, campaigns, and emergency blood appeals.",
+    "features": [
+      "Google Maps-based donation center discovery",
+      "Real-time appointment booking with slot capacity validation",
+      "Gamification system: points, 13 badges & leaderboards",
+      "Firebase Cloud Messaging push notifications",
+      "AI chatbot powered by Google Gemini",
+      "Bilingual (Arabic/English, RTL) UI with JWT auth & token refresh"
+    ],
+    "tech": [
+      "Flutter",
+      "Dart",
+      "Cubit/Bloc",
+      "Dio & Retrofit",
+      "Firebase FCM",
+      "Google Maps",
+      "Clean Architecture"
+    ],
+    "github": "https://github.com/MooAli49/monqez"
+  },
+  {
+    "id": "next-step",
+    "emoji": "💼",
+    "title": "Next Step",
+    "badge": null,
+    "featured": false,
+    "image": "images/nextstep.png",
+    "description": "A scalable Flutter career and job-matching application with a fully responsive UI across mobile, web, and desktop, powered by Supabase backend services.",
+    "features": [
+      "GetX state management & routing",
+      "Supabase backend for authentication & data services",
+      "Secure local storage with Flutter Secure Storage",
+      "Fully responsive UI across mobile, web & desktop"
+    ],
+    "tech": [
+      "Flutter",
+      "Dart",
+      "GetX",
+      "Supabase",
+      "Dio",
+      "Flutter Secure Storage"
+    ],
+    "github": "https://github.com/MooAli49/next_step"
+  },
+  {
+    "id": "e-care",
+    "emoji": "🏥",
+    "title": "e-Care Mobile Platform",
+    "badge": null,
+    "featured": false,
+    "image": "images/ecare.png",
+    "description": "A modern Flutter healthcare & patient management application designed for seamless appointment scheduling, insurance tracking, and patient onboarding.",
+    "features": [
+      "Multi-step authentication & OTP verification",
+      "Patient profile & insurance policy management",
+      "Interactive home dashboard & quick action navigation",
+      "Clean Architecture with BLoC/Cubit & Retrofit"
+    ],
+    "tech": [
+      "Flutter",
+      "Dart",
+      "BLoC / Cubit",
+      "Clean Architecture",
+      "Retrofit / Dio"
+    ],
+    "github": "https://github.com/mumenabdelkader/e-care"
+  },
+  {
+    "id": "bolt",
+    "emoji": "⚡",
+    "title": "Bolt — Supply Chain App",
+    "badge": null,
+    "featured": false,
+    "image": "images/bolt.png",
+    "description": "A centralized Flutter platform for procurement, inventory, and logistics management, streamlining supply chain operations through a modern mobile interface.",
+    "features": [
+      "Centralized procurement & inventory management",
+      "Logistics tracking and order management",
+      "RESTful API integration for real-time data",
+      "Clean, intuitive dashboard UI"
+    ],
+    "tech": [
+      "Flutter",
+      "Dart",
+      "RESTful APIs",
+      "Clean Architecture"
+    ],
+    "github": "https://github.com/KareemEzzat91/supply_chain_bolt"
+  },
+  {
+    "id": "ecommerce",
+    "emoji": "🛍",
+    "title": "E-Commerce Flutter App",
+    "badge": null,
+    "featured": false,
+    "image": "images/ecommerce.png",
+    "description": "A feature-rich e-commerce mobile application built with Flutter and Firebase, delivering a seamless online shopping experience with a complete checkout flow.",
+    "features": [
+      "Firebase-backed authentication & user management",
+      "Product listing, search & filtering",
+      "Shopping cart with state persistence",
+      "Complete checkout flow with payment integration"
+    ],
+    "tech": [
+      "Flutter",
+      "Firebase",
+      "BLoC",
+      "REST APIs"
+    ],
+    "github": "https://github.com/MooAli49/ecommerce"
+  },
+  {
+    "id": "spotify",
+    "emoji": "🎵",
+    "title": "Spotify Clone",
+    "badge": null,
+    "featured": false,
+    "image": "images/music-streaming-app.png",
+    "description": "A cross-platform music streaming app clone built with Flutter and Firebase, featuring full authentication, playlist management, and a Cubit-managed audio player.",
+    "features": [
+      "Firebase Auth & Firestore-backed playlists/favorites",
+      "Cubit-managed music player state",
+      "Search functionality and music discovery",
+      "Background audio playback support"
+    ],
+    "tech": [
+      "Flutter",
+      "Dart",
+      "Firebase",
+      "Cubit"
+    ],
+    "github": "https://github.com/MooAli49/spotify"
+  }
+]

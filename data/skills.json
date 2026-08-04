@@ -1,0 +1,48 @@
+[
+  {
+    "category": "Mobile Development",
+    "tags": [
+      "Flutter",
+      "Dart",
+      "Android Native",
+      "Cross-Platform",
+      "Responsive & Adaptive UI",
+      "Localization (RTL)"
+    ]
+  },
+  {
+    "category": "State Management & Architecture",
+    "tags": [
+      "Cubit / BLoC",
+      "GetX",
+      "Provider",
+      "Clean Architecture",
+      "MVVM",
+      "OOP"
+    ]
+  },
+  {
+    "category": "Backend & APIs",
+    "tags": [
+      "Firebase (Auth, Firestore, FCM)",
+      "Supabase",
+      "RESTful APIs",
+      "Dio",
+      "Retrofit",
+      "JWT Auth"
+    ]
+  },
+  {
+    "category": "Tools & Storage",
+    "tags": [
+      "Git & GitHub",
+      "Android Studio",
+      "Postman",
+      "Figma",
+      "Google Maps API",
+      "Hive",
+      "Shared Preferences",
+      "Flutter Secure Storage"
+    ]
+  }
+]
